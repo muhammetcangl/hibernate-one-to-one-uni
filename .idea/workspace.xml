@@ -2,33 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e40cb7-4c22-41ca-b9a8-9c7c878153ff" name="Default Changelist" comment="Adding date column and working with date + delete student">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate-start.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.9.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/classmate-1.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.4.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jandex-2.0.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/hibernate-start/META-INF/hibernate-start.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/hibernate-start/com/mcg/hibernate/demo/CreateDemo.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/hibernate-start/com/mcg/hibernate/demo/DeleteDemo.class" afterDir="false" />
@@ -38,16 +11,11 @@
       <change afterPath="$PROJECT_DIR$/out/production/hibernate-start/com/mcg/jdbc/TestJdbc.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/hibernate-start/hibernate.cfg.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/hibernate-start/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql-scripts/01-create-user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql-scripts/02-student-tracker.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/mcg/hibernate/demo/CreateDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/mcg/hibernate/demo/DeleteDemo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/mcg/hibernate/demo/entity/Instructor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/mcg/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/mcg/hibernate/demo/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mcg/jdbc/TestJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mcg/hibernate/demo/entity/InstructorDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="168">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -96,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -167,24 +135,6 @@
             <path>
               <item name="hb-01-one-to-one-uni" type="b2602c69:ProjectViewProjectNode" />
               <item name="hb-01-one-to-one-uni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hb-01-one-to-one-uni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hb-01-one-to-one-uni" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hb-01-one-to-one-uni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hb-01-one-to-one-uni" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hb-01-one-to-one-uni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hb-01-one-to-one-uni" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate-start" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hb-01-one-to-one-uni" type="b2602c69:ProjectViewProjectNode" />
@@ -348,7 +298,7 @@
       <workItem from="1558948301622" duration="8447000" />
       <workItem from="1559024842230" duration="6049000" />
       <workItem from="1559046312714" duration="3296000" />
-      <workItem from="1559049777514" duration="206000" />
+      <workItem from="1559049777514" duration="835000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1558949182391</created>
@@ -406,11 +356,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559049650360</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Initial commit">
+      <created>1559050090531</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559050090532</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17998000" />
+    <option name="totallyTimeSpent" value="18627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="686" extended-state="6" />
@@ -454,7 +411,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Adding sql scripts." />
     <MESSAGE value="Testing database connection." />
     <MESSAGE value="Creating Student class with annotations." />
@@ -462,7 +418,8 @@
     <MESSAGE value="Adding log4j for viewing the query parameters (but too long console output viewing :) )" />
     <MESSAGE value="Adding date column and working with date + delete student" />
     <MESSAGE value="Adding gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding gitignore" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/mcg/jdbc/Student.java" />
@@ -533,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mcg/hibernate/demo/entity/InstructorDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mcg/hibernate/demo/entity/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -547,10 +497,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mcg/hibernate/demo/entity/InstructorDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
